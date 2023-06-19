@@ -1,5 +1,5 @@
 # word2vec-2023-6  
-##1.word2vec文件夹  
+## 1.word2vec文件夹  
 文件word2vec是对该文件夹下test-6-14.txt数据集word2vec后的结果。其中：  
 test-6-14.txt为数据集。  
 SkipGram.py为python代码文件。  

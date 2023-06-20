@@ -20,7 +20,7 @@
 输入EmbeddingModel类和想输出的地址。遍历EmbeddingModel中的词列表，在给定地址打印所有单词预测最大值表格。  
 ### 2.运行结果  
 见test-6-19文件夹下的"test-6-19.pth"、"test-6-19_tSNE.png"、"test-6-19_embedding.html"、"test-6-19_pred.html"。  
-#### (1)test-6-19_tSNE.png：  
+#### (1)[test-6-19_tSNE.png](/test-6-19/test-6-19_tSNE.png)：  
 
 #### (2)test-6-19_embedding.html：  
 

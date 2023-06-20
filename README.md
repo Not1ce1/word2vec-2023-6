@@ -13,9 +13,9 @@
 #### (2)word2one_hot函数：  
 输入word和word列表，输出one-hot编码。  
 #### (3)EmbeddingModel类：  
-继承torch中的Module类。
+继承torch中的Module类。实现了forward函数和train函数。利用自己写的代码实现了word2vec中的sgd算法。  
 #### (4)Embedding_Visualization函数：  
-输入EmbeddingModel类和想输出的地址。先用t-SNE方法将词向量转换到二维并可视化。再计算向量间的皮尔逊相关系数，用pyechart制作词向量相似词列表。
+输入EmbeddingModel类和想输出的地址。先用t-SNE方法将词向量转换到二维并可视化。再计算词向量间的皮尔逊相关系数，用pyechart制作词向量相似词列表。
 #### (5)word2vec_pred函数：  
 输入EmbeddingModel类和想输出的地址。遍历EmbeddingModel中的词列表，在给定地址打印所有单词预测最大值表格。  
 ### 2.运行结果  

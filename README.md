@@ -20,10 +20,17 @@
 输入EmbeddingModel类和想输出的地址。遍历EmbeddingModel中的词列表，在给定地址打印所有单词预测最大值表格。  
 ### 2.运行结果  
 见test-6-19文件夹下的"test-6-19.pth"、"test-6-19_tSNE.png"、"test-6-19_embedding.html"、"test-6-19_pred.html"。  
+#### (1)test-6-19_tSNE.png：  
+
+#### (2)test-6-19_embedding.html：  
+
+#### (3)test-6-19_pred.html：  
+
 ### 3.使用技术  
-(1)torch包  
-(2)sklearn中的TSNE功能  
-(3)利用pyecharts包打印表格  
+(1)torch包。  
+(2)利用sklearn包中的TSNE实现词向量的降维。  
+(3)利用pyecharts包打印表格。  
+(4)利用scipy包计算词向量之间的皮尔逊相关系数。  
 ### 4.难点及解决方法  
 #### (1)在数据集过大时训练耗时较长
 - [x] 利用torch.cuda函数将矩阵运算转移到GPU中。

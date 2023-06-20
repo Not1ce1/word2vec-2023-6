@@ -1,6 +1,6 @@
 # word2vec-2023-6  
 ## 一、test-6-19文件夹   
-1.[test-6-19.txt](/test-6-19/test-6-19.txt)数据集为wiki百科数据集中的第一行，共1047个词。 
+1.[test-6-19.txt](/test-6-19/test-6-19.txt)数据集为wiki百科数据集中的第一行，共1047个词。   
 2.[SkipGram.py](/test-6-19/SkipGram.py)为python代码文件。  
 3.[test-6-19.pth](/test-6-19/test-6-19.pth)为训练后的model文件。  
 4.[test-6-19_tSNE.png](/test-6-19/test-6-19_tSNE.png)为对词向量(word2vec中的w1矩阵乘以词的one-hot编码)用t-SNE方法降维并可视化后的文件。  

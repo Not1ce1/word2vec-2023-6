@@ -28,6 +28,7 @@
 ### 2.运行结果   
 #### (1)[test-6-19_tSNE.png](/test-6-19/test-6-19_tSNE.png)：  
 对词向量用t-SNE方法降维并可视化后的结果。可以看到词向量在二维空间中呈现规律的形状。原因是数据集为wiki百科中的一段话，词之间有较强的逻辑关系，所以词向量在高维空间中极有可能有较强的联系(如线性关系)，而在二维空间中表现为有规律的形状。  
+但是在[output_SkipGram_tSNE.png](/output_SkipGram/output_SkipGram_tSNE.png)中词向量是均匀分布的，可能是超参数选择导致对test-6-19.txt数据集过拟合。
 #### (2)[test-6-19_embedding.html](/test-6-19/test-6-19_embedding.html)：  
 对每个词向量找前五个最相似向量的列表。可以看到最相似的词中较少出现原文中的直接上下文，体现了word2vec产生的词向量捕获词关系的能力。  
 #### (3)[test-6-19_pred.html](/test-6-19/test-6-19_pred.html)：  

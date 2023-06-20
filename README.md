@@ -1,11 +1,11 @@
 # word2vec-2023-6  
 ## 一、test-6-19文件夹   
-1.test-6-19.txt为数据集。  
-2.SkipGram.py为python代码文件。  
-3.test-6-19.pth为训练后的model文件。  
-4.test-6-19_tSNE.png为对词向量用t-SNE方法降维并可视化后的文件。  
-5.test-6-19_embedding.html为对每个词向量找前五个最相似向量的列表。  
-6.test-6-19_pred.html为用word2vec进行词预测的结果。  
+1.[test-6-19.txt](/test-6-19/test-6-19.txt)为数据集。  
+2.[SkipGram.py](/test-6-19/SkipGram.py)为python代码文件。  
+3.[test-6-19.pth](/test-6-19/test-6-19.pth)为训练后的model文件。  
+4.[test-6-19_tSNE.png](/test-6-19/test-6-19_tSNE.png)为对词向量用t-SNE方法降维并可视化后的文件。  
+5.[test-6-19_embedding.html](/test-6-19/test-6-19_embedding.html)为对每个词向量找前五个最相似向量的列表。  
+6.[test-6-19_pred.html](/test-6-19/test-6-19_pred.html)为用word2vec进行词预测的结果。  
 ## 二、项目介绍  
 ### 1.实现功能  
 #### (1)EmbeddingDataset类：  
@@ -18,13 +18,12 @@
 输入EmbeddingModel类和想输出的地址。先用t-SNE方法将词向量转换到二维并可视化。再计算词向量间的皮尔逊相关系数，用pyechart制作词向量相似词列表。
 #### (5)word2vec_pred函数：  
 输入EmbeddingModel类和想输出的地址。遍历EmbeddingModel中的词列表，在给定地址打印所有单词预测最大值表格。  
-### 2.运行结果  
-见test-6-19文件夹下的"test-6-19.pth"、"test-6-19_tSNE.png"、"test-6-19_embedding.html"、"test-6-19_pred.html"。  
+### 2.运行结果   
 #### (1)[test-6-19_tSNE.png](/test-6-19/test-6-19_tSNE.png)：  
 
-#### (2)test-6-19_embedding.html：  
+#### (2)[test-6-19_embedding.html](/test-6-19/test-6-19_embedding.html)：  
 
-#### (3)test-6-19_pred.html：  
+#### (3)[test-6-19_pred.html](/test-6-19/test-6-19_pred.html)：  
 
 ### 3.使用技术  
 (1)torch包。  

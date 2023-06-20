@@ -8,6 +8,7 @@
 6.[test-6-19_pred.html](/test-6-19/test-6-19_pred.html)为用word2vec进行词预测的结果。  
 ## 二、项目介绍  
 ### 1.实现功能  
+(见[SkipGram.py](/test-6-19/SkipGram.py)文件)  
 #### (1)EmbeddingDataset类：  
 继承torch中的Dataset类。输入数据集的地址，加载数据集。  
 #### (2)word2one_hot函数：  

@@ -6,7 +6,13 @@
 4.[test-6-19_tSNE.png](/test-6-19/test-6-19_tSNE.png)为对词向量(word2vec中的w1矩阵乘以词的one-hot编码)用t-SNE方法降维并可视化后的文件。  
 5.[test-6-19_embedding.html](/test-6-19/test-6-19_embedding.html)为对每个词向量找前五个最相似向量的列表。  
 6.[test-6-19_pred.html](/test-6-19/test-6-19_pred.html)为用word2vec进行词预测的结果。  
-## 二、项目介绍  
+## 二、output_SkipGram文件夹   
+1.[test-6-14.txt](/output_SkipGram/test-6-14.txt)为测试数据集。   
+2.[SkipGram.pth](/output_SkipGram/SkipGram.pth)为训练后的model文件。  
+3.[output_SkipGram_tSNE.png](/output_SkipGram/output_SkipGram_tSNE.png)为对词向量(word2vec中的w1矩阵乘以词的one-hot编码)用t-SNE方法降维并可视化后的文件。  
+4.[output_SkipGram_embedding.html](/output_SkipGram/output_SkipGram_embedding.html)为对每个词向量找前五个最相似向量的列表。  
+5.[output_SkipGram_pred.html](/output_SkipGram/output_SkipGram_pred.html)为用word2vec进行词预测的结果。  
+## 三、项目介绍  
 ### 1.实现功能  
 (见[SkipGram.py](/test-6-19/SkipGram.py)文件)  
 #### (1)EmbeddingDataset类：  

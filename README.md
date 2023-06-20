@@ -8,10 +8,10 @@
 6.[test-6-19_pred.html](/test-6-19/test-6-19_pred.html)为用word2vec进行词预测的结果。  
 ## 二、output_SkipGram文件夹   
 1.[test-6-14.txt](/output_SkipGram/test-6-14.txt)为测试数据集。   
-2.[SkipGram.pth](/output_SkipGram/SkipGram.pth)为训练后的model文件。  
-3.[output_SkipGram_tSNE.png](/output_SkipGram/output_SkipGram_tSNE.png)为对词向量(word2vec中的w1矩阵乘以词的one-hot编码)用t-SNE方法降维并可视化后的文件。  
-4.[output_SkipGram_embedding.html](/output_SkipGram/output_SkipGram_embedding.html)为对每个词向量找前五个最相似向量的列表。  
-5.[output_SkipGram_pred.html](/output_SkipGram/output_SkipGram_pred.html)为用word2vec进行词预测的结果。  
+2.[SkipGram.pth](/output_SkipGram/SkipGram.pth)为测试数据集训练后的model文件。  
+3.[output_SkipGram_tSNE.png](/output_SkipGram/output_SkipGram_tSNE.png)为测试数据集用t-SNE方法降维并可视化后的文件。  
+4.[output_SkipGram_embedding.html](/output_SkipGram/output_SkipGram_embedding.html)为测试数据集词向量找前五个最相似向量的列表。  
+5.[output_SkipGram_pred.html](/output_SkipGram/output_SkipGram_pred.html)为测试数据集进行词预测的结果。  
 ## 三、项目介绍  
 ### 1.实现功能  
 (见[SkipGram.py](/test-6-19/SkipGram.py)文件)  
@@ -28,7 +28,7 @@
 ### 2.运行结果   
 #### (1)[test-6-19_tSNE.png](/test-6-19/test-6-19_tSNE.png)：  
 对词向量用t-SNE方法降维并可视化后的结果。可以看到词向量在二维空间中呈现规律的形状。原因是数据集为wiki百科中的一段话，词之间有较强的逻辑关系，所以词向量在高维空间中极有可能有较强的联系(如线性关系)，而在二维空间中表现为有规律的形状。  
-注：但是在[output_SkipGram_tSNE.png](/output_SkipGram/output_SkipGram_tSNE.png)中词向量是均匀分布的，可能是超参数选择导致对test-6-19.txt数据集过拟合。
+注：但是在[output_SkipGram_tSNE.png](/output_SkipGram/output_SkipGram_tSNE.png)中词向量是均匀分布的，可能是超参数选择不当导致对test-6-19.txt数据集过拟合。
 #### (2)[test-6-19_embedding.html](/test-6-19/test-6-19_embedding.html)：  
 对每个词向量找前五个最相似向量的列表。可以看到最相似的词中较少出现原文中的直接上下文，体现了word2vec产生的词向量捕获词关系的能力。  
 #### (3)[test-6-19_pred.html](/test-6-19/test-6-19_pred.html)：  
